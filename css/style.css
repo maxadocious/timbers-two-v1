@@ -1,16 +1,27 @@
 /* Enter your Styles below! */
-
-body { 
-	font-family: Helvetica, sans-serif;
+@font-face {
+  font-family: 'dinot-black';
+  src: url('../dinot/DINOT-Black.otf') format('otf');
+}
+@font-face {
+  font-family: 'dinot';
+  src: url('../dinot/DINOT.otf') format('otf');
+}
+body {
+	background-color: #151515;
 	font-size: 16px;
 	 }
 
-h1, h2, h3, h4 {
-	font-family: Helvetica, sans-serif;
+header{
+	height: 100vh;
+	background-image: image('images/HomePageImage.jpg');
 }
 
 h1 {
+	font-family: 'dinot-black', sans-serif;
+	color: #fff;
 	font-size: 48px;
+	margin-top: 45vh;
 }
 
 h2 {
@@ -34,7 +45,7 @@ header {margin-bottom: 20px;}
 /* ensures that your images stretch the width of their containers */
 img { width: 100%; }
 
-a { 
+a {
 	color: red;
 	text-decoration: none;
 	 }
