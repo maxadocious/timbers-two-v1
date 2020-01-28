@@ -8,7 +8,7 @@
   src: url('../dinot/DINOT.otf') format('otf');
 }
 body {
-	background-color: #151515;
+	background-color: #000;
 	font-size: 16px;
 	 }
 
@@ -24,6 +24,18 @@ h1 {
 	margin-top: 45vh;
 }
 
+.grid {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+}
+
+.grid img{
+  width: 100px;
+}
+
+/*
 h2 {
 	font-size: 36px;
 }
@@ -42,7 +54,6 @@ blockquote {
 
 header {margin-bottom: 20px;}
 
-/* ensures that your images stretch the width of their containers */
 img { width: 100%; }
 
 a {
@@ -71,3 +82,4 @@ a:hover { color: black; }
 @media only screen and (min-width:1224px) {
 
 }
+*/
