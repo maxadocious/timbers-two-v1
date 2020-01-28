@@ -17,11 +17,33 @@ header{
 	background-image: image('images/HomePageImage.jpg');
 }
 
+.schedule img {
+  height: 100vh;
+}
+
 h1 {
 	font-family: 'dinot-black', sans-serif;
-	color: #fff;
+	color: #c8972c;
 	font-size: 48px;
 	margin-top: 45vh;
+}
+
+h2 {
+  font-family: 'dinot', sans-serif;
+	color: #fff;
+	font-size: 48px;
+}
+
+h3 {
+  font-family: 'dinot', sans-serif;
+	color: #fff;
+	font-size: 25px;
+}
+
+p {
+  font-family: 'dinot', sans-serif;
+	color: #fff;
+	font-size: 18px;
 }
 
 .grid {
@@ -33,6 +55,10 @@ h1 {
 
 .grid img{
   width: 100px;
+}
+
+.player img{
+  width: 500px;
 }
 
 /*
