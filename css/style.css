@@ -76,32 +76,24 @@ p {
 .grid {
   display: grid;
   justify-items: center;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 60px;
+  max-width: 80%;
+  margin: auto;
 }
 
 .grid img{
   width: 100px;
 }
 
-.image-image {
-  position: relative;
-  width: 100px;
-}
-
-.image-image .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100px;
-  opacity: 0;
+.roster a {
   transition: .5s ease;
+  filter: grayscale(100%);
 }
 
-.image-image:hover .overlay {
-  opacity: 1;
+.roster a:hover {
+  transition: .5s ease;
+  filter: none;
 }
 
 .player img{
