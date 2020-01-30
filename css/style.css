@@ -10,40 +10,65 @@
 body {
 	background-color: #000;
 	font-size: 16px;
-	 }
+}
 
 header{
 	height: 100vh;
 	background-image: image('images/HomePageImage.jpg');
 }
 
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: #2a5135;
+}
+
 .schedule img {
   height: 100vh;
 }
 
+.nav {
+  font-family: 'dinot-black', sans-serif;
+	color: white;
+	font-size: 45px;
+  line-height: 200px;
+	margin-top: 20vh;
+}
+
+.title {
+  font-family: 'dinot-black', sans-serif;
+	color: white;
+	font-size: 45px;
+}
+
 h1 {
 	font-family: 'dinot-black', sans-serif;
-	color: #c8972c;
+	color: white;
 	font-size: 48px;
 	margin-top: 45vh;
 }
 
 h2 {
   font-family: 'dinot', sans-serif;
-	color: #fff;
+	color: white;
 	font-size: 48px;
 }
 
 h3 {
   font-family: 'dinot', sans-serif;
-	color: #fff;
+	color: white;
 	font-size: 25px;
   line-height: 45px;
 }
 
 p {
   font-family: 'dinot', sans-serif;
-	color: #fff;
+	color: white;
 	font-size: 18px;
   line-height: 20px;
 }
@@ -65,6 +90,7 @@ p {
 
 .info h1 {
   font-size: 100px;
+  color: #c8972c;
 }
 
 /*
