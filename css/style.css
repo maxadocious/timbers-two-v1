@@ -63,6 +63,10 @@ p {
   width: 500px;
 }
 
+.info h1 {
+  font-size: 100px;
+}
+
 /*
 h2 {
 	font-size: 36px;
