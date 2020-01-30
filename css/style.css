@@ -84,6 +84,26 @@ p {
   width: 100px;
 }
 
+.image-image {
+  position: relative;
+  width: 100px;
+}
+
+.image-image .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100px;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.image-image:hover .overlay {
+  opacity: 1;
+}
+
 .player img{
   width: 500px;
 }
