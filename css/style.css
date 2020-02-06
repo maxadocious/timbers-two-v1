@@ -27,6 +27,14 @@ a:hover {
   color: #2a5135;
 }
 
+.homepage {
+  display: flex;
+}
+.dude img{
+  width: 700px;
+  padding-right: 200px;
+}
+
 .schedule img {
   height: 100vh;
 }
@@ -43,13 +51,7 @@ a:hover {
   font-family: 'dinot-black', sans-serif;
 	color: white;
 	font-size: 45px;
-}
-
-h1 {
-	font-family: 'dinot-black', sans-serif;
-	color: white;
-	font-size: 48px;
-	margin-top: 45vh;
+  padding-top: 45vh;
 }
 
 h2 {
@@ -95,13 +97,37 @@ p {
   filter: none;
 }
 
+.box {
+  display: flex;
+}
+
 .player img{
   width: 500px;
+  padding-right: 100px;
+}
+
+.info{
+  display: block;
 }
 
 .info h1 {
+  font-family: 'dinot-black', sans-serif;
   font-size: 100px;
   color: #c8972c;
+  margin-top: 10vh;
+}
+
+body {
+    animation: myfadeInAnimation 2s;
+}
+
+@keyframe myfadeInAnimation {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@-webkit-keyframes myfadeInAnimation {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 /*
